@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/Contact_add_Iamge"
+        android:layout_width="287dp"
+        android:layout_height="89dp"
+        android:layout_alignStart="@+id/add_name"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/contactadd" />
+
+
+    <EditText
+        android:id="@+id/editText_add_name"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="158dp"
+        android:layout_weight="1"
+        android:hint="이름" />
+
+    <EditText
+        android:id="@+id/editText_add_age"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="215dp"
+        android:layout_weight="1"
+        android:hint="나이" />
+
+    <EditText
+        android:id="@+id/editText_add_phonenum"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="272dp"
+        android:layout_weight="1"
+        android:hint="연락처" />
+
+    <EditText
+        android:id="@+id/editText_add_country"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="329dp"
+        android:layout_weight="1"
+        android:hint="국가" />
+
+    <Button
+        android:id="@+id/contact_add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText_add_name"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginBottom="129dp"
+        android:background="@android:color/white"
+        android:layout_gravity="center"
+        android:text="추가하기" />
+
+    <TextView
+        android:id="@+id/add_name"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/editText_add_name"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="이름" />
+
+    <TextView
+        android:id="@+id/add_age"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/editText_add_name"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="57dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="나이" />
+
+    <TextView
+        android:id="@+id/add_phone_num"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/editText_add_name"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="114dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="연락처" />
+
+    <TextView
+        android:id="@+id/add_country"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/editText_add_name"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="171dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="국가" />
+
+    <TextView
+        android:id="@+id/debugtest"
+        android:layout_width="244dp"
+        android:layout_height="46dp"
+        android:layout_alignStart="@+id/Contact_add_Iamge"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="38dp" />
+
+</RelativeLayout>
